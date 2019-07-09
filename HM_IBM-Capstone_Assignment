@@ -9,7 +9,7 @@
             }
         }, 
         {
-            "execution_count": 5, 
+            "source": "!pip install numpy", 
             "cell_type": "code", 
             "metadata": {}, 
             "outputs": [
@@ -19,10 +19,10 @@
                     "text": "Requirement already satisfied: numpy in /opt/conda/envs/Python36/lib/python3.6/site-packages (1.15.4)\r\n"
                 }
             ], 
-            "source": "!pip install numpy"
+            "execution_count": 5
         }, 
         {
-            "execution_count": 6, 
+            "source": "import pandas as pd\nimport numpy as np\n\n\nprint (\"Hello Capstone Project Course!\")", 
             "cell_type": "code", 
             "metadata": {}, 
             "outputs": [
@@ -32,14 +32,14 @@
                     "text": "Hello Capstone Project Course!\n"
                 }
             ], 
-            "source": "import pandas as pd\nimport numpy as np\n\n\nprint (\"Hello Capstone Project Course!\")"
+            "execution_count": 6
         }, 
         {
-            "execution_count": null, 
+            "source": "", 
             "cell_type": "code", 
             "metadata": {}, 
             "outputs": [], 
-            "source": ""
+            "execution_count": null
         }
     ], 
     "metadata": {
@@ -53,8 +53,8 @@
             "nbconvert_exporter": "python", 
             "version": "3.6.8", 
             "name": "python", 
-            "file_extension": ".py", 
             "pygments_lexer": "ipython3", 
+            "file_extension": ".py", 
             "codemirror_mode": {
                 "version": 3, 
                 "name": "ipython"
